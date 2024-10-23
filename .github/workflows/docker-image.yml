@@ -32,4 +32,4 @@ jobs:
           no-cache: true
           tags: |
             simstosh/node-chrome-browser
-            simstosh/node-chrome-browser-${{ env.NOW }}
+            simstosh/node-chrome-browser:${{ env.NOW }}
